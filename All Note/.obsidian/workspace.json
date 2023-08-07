@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "641899284e5003e8",
+        "id": "9ec1e0467a2c3155",
         "type": "tabs",
         "children": [
           {
-            "id": "ec6d6f7fbbed4f74",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Snowflake.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4f98522d35e472b0",
+            "id": "43277df651a727eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -158,9 +146,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4f98522d35e472b0",
+  "active": "43277df651a727eb",
   "lastOpenFiles": [
-    "Python - Create fake data with Faker.md",
-    "Snowflake.md"
+    "SQL.md",
+    "Flask.md",
+    "Airflow.md",
+    "Dagster.md",
+    "Data Engineer.md",
+    "Kafka.md",
+    "Faker - Create fake data using Python.md",
+    "Docker.md",
+    "Snowflake.md",
+    "Lightdash.md",
+    "DBT.md"
   ]
 }

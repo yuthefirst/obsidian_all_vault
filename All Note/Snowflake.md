@@ -1,5 +1,41 @@
+### Encrypt and Decrypt
+#### Encrypt
+```sql
+SET passphrase='thisistheprivatekey';
+
+SELECT encrypt('Secret!', 'AAD', $passphrase);
+```
+#### Decrypt
+```sql
+SELECT
+    TO_VARCHAR(
+        DECRYPT(
+            ENCRYPT('Secret!', 'AAD', $passphrase),
+            $passphrase),
+        'utf-8');
+```
+
+#### Example: 
+
+
 ### Snowflake with Python
 - Create a role and user for snowflake connector
+```sql
+CREATE warehouse temp_patient_warehouse;
+
+CREATE database temp_patient_database;
+
+CREATE schema temp_patient_schema;
+
+CREATE USER testing_user PASSWORD='Pass@123456' DEFAULT_ROLE = sysadmin;
+
+GRANT ALL ON WAREHOUSE temp_patient_warehouse TO ROLE sysadmin;
+
+GRANT ALL ON database temp_patient_database TO ROLE sysadmin;
+
+GRANT ALL ON schema temp_patient_schema TO ROLE sysadmin;
+
+```
 - Example: Create an table and insert a CSV to that table
 ```python
 from snowflake.connector import connect  
