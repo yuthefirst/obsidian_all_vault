@@ -8,3 +8,4 @@
 - [[Lightdash]]
 - [[Snowflake]]
 - [[SQL]]
+- [[Jinja2]]
