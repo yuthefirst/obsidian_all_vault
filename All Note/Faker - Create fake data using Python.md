@@ -61,3 +61,9 @@ The rest of the code remains the same as before, where the data is saved to a CS
 
 
 - We also can populate a [[Snowflake#Snowflake with Python]] table with this fake data
+
+```[!Warning]
+```
+
+[>]
+
