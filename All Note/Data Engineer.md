@@ -2,10 +2,11 @@
 - [[Dagster]]
 - [[DBT]]
 - [[Docker]]
-- [[Faker - Create fake data using Python]]
 - [[Flask]]
 - [[Kafka]]
 - [[Lightdash]]
 - [[Snowflake]]
 - [[SQL]]
 - [[Jinja2]]
+- [[Python]]
+- 

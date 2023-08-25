@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "ade24fcb8387b0f2",
+        "id": "89dd38d9c0d3a9b8",
         "type": "tabs",
         "children": [
           {
-            "id": "bbedb123bd1c83d6",
+            "id": "d0e09b7dc05afbb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Faker - Create fake data using Python.md",
+                "file": "MD5-hash.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4fc8c39eb07b95a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Modgen.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Faker - Create fake data using Python.md",
+                "file": "Modgen.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Faker - Create fake data using Python.md",
+                "file": "Modgen.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,11 +138,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Faker - Create fake data using Python.md"
+                "file": "Modgen.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -145,12 +159,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b3a65ed371c9cab7",
+  "active": "4fc8c39eb07b95a7",
   "lastOpenFiles": [
-    "Data Engineer.md",
+    "MD5-hash.md",
+    "Modgen.md",
+    "Python.md",
+    "Python Click.md",
     "DBT.md",
-    "Jinja2.md",
     "Faker - Create fake data using Python.md",
+    "Python Cheat Sheet.md",
+    "Data Engineer.md",
+    "Jinja2.md",
     "Snowflake.md",
     "SQL.md",
     "Flask.md",
