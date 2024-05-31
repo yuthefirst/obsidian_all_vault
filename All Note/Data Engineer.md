@@ -9,4 +9,5 @@
 - [[SQL]]
 - [[Jinja2]]
 - [[Python]]
+- [[Data Warehouse]]
 - 
